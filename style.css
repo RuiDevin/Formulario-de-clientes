@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(106deg, rgba(7,166,148,1) 99%, rgba(66,170,69,1) 100%);
+}
+
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 32%;
+}
+
+fieldset{
+    border: 3px solid greenyellow;    
+}
+
+legend{
+    border: 1px solid greenyellow;
+    padding: 10px;
+    text-align: center;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ˜ .labelInput, .inputUser:valid ˜
+.labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: greenyellow;
+}
